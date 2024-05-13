@@ -5,6 +5,8 @@ import HotelDetail from './components/HotelDetail/HotelDetail';
 import Booking from './components/Booking/Booking';
 import Navbar from './Shared/Navbar/Navbar';
 import { Toaster } from 'react-hot-toast';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 const App = () => {
   const [hotels, setHotels] = useState([]);
@@ -61,6 +63,8 @@ const App = () => {
             <Route path="/" element={<Hotels hotels={filteredHotels} />} />
             <Route path="/hotel-detail/:hotelId" element={<HotelDetail hotels={hotels} />} />
             <Route path="/booking/:roomId" element={<Booking hotels={hotels} />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </div>
         <Toaster />

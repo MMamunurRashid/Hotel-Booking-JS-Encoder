@@ -1,0 +1,61 @@
+{
+    "hotels": [
+      {
+        "id": 1,
+        "name": "Luxury Hotel",
+        "location": "City A",
+        "description": "A luxurious hotel with stunning views and top-notch amenities.",
+        "image": "https://cf.bstatic.com/static/img/theme-index/bg_luxury/869918c9da63b2c5685fce05965700da5b0e6617.jpg",
+        "rating": 4.8,
+        "reviews": 128,
+        "amenities": ["Free Wi-Fi", "Swimming Pool", "Gym", "Spa", "Restaurant"],
+        "rooms": [
+          {
+            "id": 101,
+            "type": "Standard Room",
+            "price": 150,
+            "description": "A comfortable room with a queen-sized bed and a view of the city.",
+            "availability": 10,
+            "image": "/standard luxury.jpg"
+          },
+          {
+            "id": 102,
+            "type": "Deluxe Room",
+            "price": 250,
+            "description": "A spacious room with a king-sized bed, a balcony, and a view of the ocean.",
+            "availability": 5,
+            "image": "/deluxe luxury.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Budget Inn",
+        "location": "City B",
+        "description": "A budget-friendly hotel offering clean and cozy accommodations.",
+        "image": "https://cf.bstatic.com/static/img/theme-index/bg_budget/1f0cae2bfb9297cd985477db58019139683b1aa5.jpg",
+        "rating": 3.9,
+        "reviews": 74,
+        "amenities": ["Free Parking", "Breakfast Included", "24-hour Front Desk"],
+        "rooms": [
+          {
+            "id": 201,
+            "type": "Economy Room",
+            "price": 80,
+            "description": "A simple room with a double bed and basic amenities.",
+            "availability": 20,
+            "image": "/economy in budget.jpg"
+          },
+          {
+            "id": 202,
+            "type": "Family Suite",
+            "price": 120,
+            "description": "A suite with two bedrooms, ideal for families or groups.",
+            "availability": 8,
+            "image": "/family in budget.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  

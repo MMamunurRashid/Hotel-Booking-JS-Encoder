@@ -16,7 +16,8 @@
             "price": 150,
             "description": "A comfortable room with a queen-sized bed and a view of the city.",
             "availability": 10,
-            "image": "/standard luxury.jpg"
+            "image": "/standard luxury.jpg",
+            "hotelId": "1"
           },
           {
             "id": 102,
@@ -24,7 +25,8 @@
             "price": 250,
             "description": "A spacious room with a king-sized bed, a balcony, and a view of the ocean.",
             "availability": 5,
-            "image": "/deluxe luxury.jpg"
+            "image": "/deluxe luxury.jpg",
+            "hotelId": "1"
           }
         ]
       },
@@ -44,7 +46,8 @@
             "price": 80,
             "description": "A simple room with a double bed and basic amenities.",
             "availability": 20,
-            "image": "/economy in budget.jpg"
+            "image": "/economy in budget.jpg",
+            "hotelId": "2"
           },
           {
             "id": 202,
@@ -52,7 +55,68 @@
             "price": 120,
             "description": "A suite with two bedrooms, ideal for families or groups.",
             "availability": 8,
-            "image": "/family in budget.jpg"
+            "image": "/family in budget.jpg",
+            "hotelId": "2"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Beach Resort",
+        "location": "Coastal City",
+        "description": "An exquisite beachfront resort offering luxury accommodations and breathtaking ocean views.",
+        "image": "/beach resort.jpg",
+        "rating": 4.5,
+        "reviews": 95,
+        "amenities": ["Beach Access", "Infinity Pool", "Spa", "Fine Dining"],
+        "rooms": [
+          {
+            "id": 301,
+            "type": "Ocean View Suite",
+            "price": 350,
+            "description": "A spacious suite with panoramic ocean views and luxurious amenities.",
+            "availability": 7,
+            "image": "/Ocean View Suite.webp",
+            "hotelId": "3"
+          },
+          {
+            "id": 302,
+            "type": "Beachfront Villa",
+            "price": 500,
+            "description": "An exclusive beachfront villa with private pool and direct access to the beach.",
+            "availability": 3,
+            "image": "/Beachfront Villa.jpg",
+            "hotelId": "3"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Mountain Lodge",
+        "location": "Alpine Town",
+        "description": "A cozy mountain lodge nestled in the heart of the Alps, offering rustic charm and stunning mountain views.",
+        "image": "/Mountain Lodge.jpg",
+        "rating": 4.2,
+        "reviews": 82,
+        "amenities": ["Skiing", "Hiking Trails", "Sauna", "Restaurant"],
+        "rooms": [
+          {
+            "id": 401,
+            "type": "Mountain View Room",
+            "price": 200,
+            "description": "A comfortable room with panoramic mountain views and cozy furnishings.",
+            "availability": 12,
+            "image": "/Mountain View Room.jpg",
+            "hotelId": "4"
+          },
+          {
+            "id": 402,
+            "type": "Alpine Chalet",
+            "price": 400,
+            "description": "A traditional alpine chalet with wooden interiors, fireplace, and stunning mountain vistas.",
+            "availability": 5,
+            "image": "/Alpine Chalet.jpeg",
+            "hotelId": "4"
           }
         ]
       }
